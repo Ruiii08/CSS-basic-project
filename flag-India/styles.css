@@ -1,0 +1,98 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4rem;    
+    background: linear-gradient( rgb(255,143,28), white, rgb(80,158,47) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.orange{
+    background-color: rgb(255,143,28);
+    width:100%;
+    height: 200px;
+}
+.white{
+    display:flex;
+    align-items:center;
+    background-color: rgb(255,255,255);
+    width:100%;
+    height:200px;
+}
+.green{
+    background-color: rgb(80,158,47);
+    width: 100%;
+    height: 200px;
+}
+.line{
+    background-color: rgb(37,14,98);
+}
+.outerContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    padding: 3%;
+}
+.chakra{
+    border: 2px solid rgb(37,14,98) ;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin:auto;
+}
+
+.chakra div{
+    width: 168px;
+    border: 1px solid rgb(37,14,98);
+    position: relative;
+}
+
+.chakra div:nth-child(1){
+    top: 84px; 
+}
+.chakra div:nth-child(2){
+    top:82px; 
+    transform: rotate(15deg);
+}
+.chakra div:nth-child(3){
+    top:80px; 
+    transform: rotate(30deg);
+}
+.chakra div:nth-child(4){
+    top:78px; 
+    transform: rotate(45deg);
+}
+.chakra div:nth-child(5){
+    top:76px; 
+    transform: rotate(60deg);
+}
+.chakra div:nth-child(6){
+    top:74px; 
+    transform: rotate(75deg);
+}
+.chakra div:nth-child(7){
+    top:72px; 
+    transform: rotate(90deg);
+}
+.chakra div:nth-child(8){
+    top:70px; 
+    transform: rotate(105deg);
+}
+.chakra div:nth-child(9){
+    top:68px; 
+    transform: rotate(120deg);
+}
+.chakra div:nth-child(10){
+    top:66px; 
+    transform: rotate(135deg);
+}
+.chakra div:nth-child(11){
+    top:64px; 
+    transform: rotate(150deg);
+}
+.chakra div:nth-child(12){
+    top:62px; 
+    transform: rotate(165deg);
+}
